@@ -1,0 +1,340 @@
+/* Styles for the Navbar */
+.navbar {
+  background-color: #f8f9fa; /* Background color */
+  padding: 1rem; /* Padding around the Navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Font size for the brand */
+  color: #343a40; /* Text color for the brand */
+  font-weight: bold; /* Bold font weight */
+}
+
+.nav-link {
+  color: #343a40; /* Text color for the links */
+  font-weight: bold; /* Bold font weight */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff; /* Text color for the links on hover or focus */
+}
+
+.navbar-toggler-icon {
+  border-color: #343a40; /* Color for the toggler icon */
+}
+
+/* Styles for the dropdown menu */
+.dropdown-menu {
+  background-color: #f8f9fa; /* Background color */
+  border-color: #343a40; /* Border color */
+}
+
+.dropdown-item {
+  color: #343a40; /* Text color for the dropdown items */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #2DC997; /* Background color for the dropdown items on hover or focus */
+  color: #ffffff; /* Text color for the dropdown items on hover or focus */
+}
+
+/* Custom CSS for aligning Nav to the right */
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Optional: Adjusting padding or margin to space elements properly */
+.navbar-collapse {
+  padding-right: -12rem; /* Adjust as needed */
+}
+
+.nav-item {
+  margin-left: 1rem; /* Adjust as needed */
+}
+
+/* Hero component styles */
+.card {
+  position: relative; /* Set position to relative */
+  border: none; /* Remove default card border */
+  border-radius: 0; /* Remove border radius */
+  box-shadow: none; /* Remove box shadow */
+}
+
+.card-img-top {
+  object-fit: cover; /* Ensure the hero image covers the entire card */
+  height: 600px; /* Set the height of the hero image */
+}
+
+.card-body {
+  position: absolute; /* Set position to absolute */
+  top: 50%; /* Align to the middle vertically */
+  left: 50%; /* Align to the middle horizontally */
+  transform: translate(-50%, -50%); /* Center the card body */
+  text-align: center; /* Center align content */
+  padding: 2rem; /* Add padding */
+  color: #fff; /* Set text color */
+}
+
+.card-title {
+  font-size: 2.5rem; /* Adjust title font size */
+  font-weight: bold; /* Make title bold */
+  margin-bottom: 1rem; /* Add some space below title */
+}
+
+.card-text {
+  font-size: 1.5rem; /* Adjust text font size */
+  margin-bottom: 2rem; /* Add some space below text */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Set primary button background color */
+  border-color: #007bff; /* Set primary button border color */
+  font-size: 1.5rem; /* Adjust button font size */
+  padding: 0.75rem 2rem; /* Adjust button padding */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Change background color on hover */
+  border-color: #0056b3; /* Change border color on hover */
+}
+
+/* About Us section styles */
+.about-block {
+  width: 95%;
+  padding: 4rem 0; /* Add padding to the section */
+}
+
+.title-holder h2 {
+  font-size: 3rem; /* Set title font size */
+  text-align: center; /* Center align title */
+  margin-bottom: 3rem; /* Add space below the title */
+}
+
+.about-block p {
+  font-size: 1.5rem; /* Set paragraph font size */
+  line-height: 1.8; /* Set line height for better readability */
+}
+
+.progress-block {
+  margin-top: 2rem; /* Add space above each progress block */
+}
+
+.progress-block h4 {
+  font-size: 1.8rem; /* Set progress block title font size */
+  margin-bottom: 1rem; /* Add space below progress block title */
+}
+
+.progress {
+  height: 1rem; /* Set height for progress bars */
+}
+
+.progress-bar {
+  background-color: #007bff; /* Set progress bar color */
+}
+
+.progress-bar-striped {
+  background-color: #007bff; /* Set progress bar striped color */
+}
+
+.progress-bar-animated {
+  background-color: #0056b3; /* Set progress bar animated color */
+}
+
+.progress-bar {
+  font-size: 1rem; /* Set font size for progress bar label */
+}
+
+.about-block .progress-block h4 {
+  text-transform: uppercase;
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+.about-block .progress-bar {
+  background-color: #f64b4b;
+  -webkit-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+}
+
+.services-block .icon {
+  width: 60px;
+  height: 60px;
+  font-size: 26px;
+  color: #f64b4b;
+  margin: 0 0 20px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+
+.services-block .icon .fas {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 2;
+}
+
+.services-block .row {
+  margin: 0 -15px 50px;
+}
+
+.services-block .row:last-child {
+  margin: 0 -15px;
+}
+
+.services-block .holder {
+  transition: all 0.3s linear;
+}
+
+.services-block .holder:hover {
+  margin-top: -5px;
+}
+
+.services-block .holder:hover .icon {
+  box-shadow: inset 0 0 0 30px #f64b4b;
+  color: #fff;
+  font-size: 18px;
+}
+
+.services-block{
+  width: 80%;
+  margin: auto;
+}
+
+.works-block .portfoliolist>div {
+  padding: 15px;
+  overflow: hidden;
+}
+
+.works-block .portfoliolist>div img {
+  position: relative;
+  top: 0;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.works-block .portfoliolist>div .label {
+  position: absolute;
+  height: 60px;
+  bottom: -60px;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  color: #fff;
+}
+
+.works-block .portfoliolist>div h3 {
+  margin: 0 0 5px;
+  color: #f64b4b;
+  font-size: 16px;
+}
+
+.works-block .portfoliolist>div p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.works-block .portfoliolist>div:hover .label {
+  bottom: 0;
+}
+
+.works-block .portfoliolist>div:hover img {
+  transform: scale(1.08);
+}
+
+.works-block .portfoliolist .portfolio-wrapper {
+  overflow: hidden;
+  position: relative !important;
+  background: #666;
+  cursor: pointer;
+  height: auto;
+  width: 100%;
+}
+
+.works-block .portfoliolist .label {
+  font-size: 100%;
+}
+
+.works-block .pagination {
+  justify-content: center;
+  margin: 25px 0 0;
+}
+
+.works-block .pagination .page-item.active .page-link {
+  background: #f64b4b;
+  border-color: #f64b4b;
+}
+
+.works-block .pagination .page-item .page-link {
+  padding: 8px 15px 10px;
+}
+
+.contact-block {
+  position: relative;
+}
+
+.contact-block .row {
+  margin: 0 0 25px;
+}
+
+.contact-block .btn-holder {
+  text-align: center;
+}
+
+.contact-block .contact-form {
+  margin: 0 0 60px;
+}
+
+.contact-block iframe {
+  border: 0;
+  width: 100%;
+  height: 450px;
+}
+
+.contact-block .contact-info {
+  padding: 70px 40px 0;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.contact-block .contact-info ul {
+  text-align: center;
+}
+
+.contact-block .contact-info li {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+}
+
+.contact-block .contact-info .fas {
+  display: block;
+  font-size: 40px;
+  margin: 0 0 15px;
+  color: #f64b4b;
+}
+
+#footer {
+  background: #f64b4b;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#footer .copyright {
+  margin: 0 0 15px;
+}
+
+#footer .socials a:hover {
+  background: #f53333;
+}
